@@ -54,8 +54,7 @@ $ udemy-dl [OPTIONS]
  - Add a switch for download quality
  - Add support for quizzes
 
-License
-----
+### License
 
 MIT
 
