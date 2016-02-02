@@ -13,23 +13,24 @@ Udemy Downloader.
 
 **wget**
 
-Windows users can get the pre-built wget binary from [Eternally bored][eb]. Paste the binary in the folder containing udemy-dl.
-
-Linux users can install wget from their package manager
+Windows users can get the pre-built `wget` binary from [Eternally bored][eb]. Paste the binary in the folder containing udemy-dl.  
+Linux users can install `wget` from their package manager
 ```sh
 $ apt-get install wget
 ```
 
 ### Usage
 
-There are two ways that udemy-dl can be run: 1) Using PHP 2) Using the pre-built exe (Windows only)
+There are two ways that `udemy-dl` can be run: 1) Using PHP 2) Using the pre-built exe (Windows only)
 
-**PHP**
+**PHP**  
+Download the PHP files from the *src* folder and run the following in cmd.
 ```sh
 $ php udemy-dl.php [OPTIONS]
 ```
 
-**EXE**
+**EXE**  
+Download the pre-built exe from the *bin* folder and run the following in cmd.
 ```sh
 $ udemy-dl [OPTIONS]
 ```
