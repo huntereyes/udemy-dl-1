@@ -21,18 +21,9 @@ $ apt-get install wget
 
 ### Usage
 
-There are two ways that `udemy-dl` can be run: 1) Using PHP 2) Using the pre-built exe (Windows only)
-
-**PHP**  
 Download the PHP files from the *src* folder and run the following in cmd.
 ```sh
 $ php udemy-dl.php [OPTIONS]
-```
-
-**EXE**  
-Download the pre-built exe from the *bin* folder and run the following in cmd.
-```sh
-$ udemy-dl [OPTIONS]
 ```
 
 ### Options
@@ -71,11 +62,6 @@ $ php udemy-dl.php -i 9513431 -s 25 -f E:\Courses\
 
  - Add a switch for download quality
  - Add support for quizzes
-
-### License
-
-MIT
-
 
 **Free Software, Hell Yeah!**
 
